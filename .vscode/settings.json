@@ -1,0 +1,11 @@
+{
+    "csharp.suppressHiddenDiagnostics": false,
+    "omnisharp.enableImportCompletion": true,
+    "omnisharp.enableMsBuildLoadProjectsOnDemand": true,
+    "omnisharp.enableRoslynAnalyzers": true,
+    "omnisharp.organizeImportsOnFormat": true,
+    "razor.format.enable": false,
+    "[csharp]": {
+      "editor.formatOnSave": true
+    },
+}

@@ -1,0 +1,888 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/dlaezza/repos/Jabra-.NET/SDK",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Comm.HidReport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Comm.HidReport.html",
+          "hash": "pHVlzXIDIcogkgxboJ4jcoEa0l+vGMuNb+q2wAbh+94="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Comm.IHidChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Comm.IHidChannel.html",
+          "hash": "Tv/QeGZmqTLqGL4NIXSBT4Iww92zcuFUEC8biZ8ITJk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Comm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Comm.html",
+          "hash": "jJ7ZNDTwTnStIp88RHy5DPUXOL+9JH/79W9cGsmz46g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.ConnectionDetection.IConnectionId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.ConnectionDetection.IConnectionId.html",
+          "hash": "iZriS/qolcnlMmyI96jhUE2TTO8eWFau0RbFpgKZB8A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.ConnectionDetection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.ConnectionDetection.html",
+          "hash": "Yu1nMmgRojAH+lbXbibctir62Cn6+tLUwMmUHei+gN0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Core.Config.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Core.Config.html",
+          "hash": "A6TCfPSdQsmDe/wwCImU0x/UWTqjCJdRmy747dKL8pA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Core.DeviceId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Core.DeviceId.html",
+          "hash": "Z2XRZEIY4/fqlJwC7jT5jEJ99HLDqQbW2KIiBH7Yzag="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Core.EventReady.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Core.EventReady.html",
+          "hash": "POsogBquKNRuDPGs9oJvl6NcU7qtKfiVYcjXwx1EDks="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Core.Init.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Core.Init.html",
+          "hash": "jaGp7tQT2eOo8vV0CbU9iGQNDX1ThdoBpflfVbx4bAY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Core.LogEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Core.LogEvent.html",
+          "hash": "qJ+PxaRuhxjHWrEm9ItIOuZPhqo45eb1Ek9n0sjt85k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Core.Types.ConnectionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Core.Types.ConnectionType.html",
+          "hash": "mqL4RfkNVhiLWbVdbXpTYKv1q9v8z0ucqnGPXH9Z970="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Core.Types.DeviceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Core.Types.DeviceType.html",
+          "hash": "37w44wjPYG3JpXMUBEmbumG2twSkiWWZ5bYzHJmpBfU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Core.Types.IApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Core.Types.IApi.html",
+          "hash": "S3MhaS6T6hUqgW/ZR8spyUOxoQUVKVqG4+XqcEKk3+M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Core.Types.IConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Core.Types.IConnection.html",
+          "hash": "YOHoFHjm/ZHr/M5W/CVgjsAquEeglYyYlGLYj4CsPNo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Core.Types.IDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Core.Types.IDevice.html",
+          "hash": "VXHtwZrA0l6wkbMmN5OwSTngCrztIXeYHJTkD8FDfFk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Core.Types.ILoggerExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Core.Types.ILoggerExtensions.html",
+          "hash": "Fu2ej02Xq5MIiqj71tQvSSirPrInZXNGT1K2EuxfaDk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Core.Types.LogLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Core.Types.LogLevel.html",
+          "hash": "qcp3/qDvbcijIAZRD9E3p0e5CTOt8/M4hkjdFQtmL7M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Core.Types.StackLayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Core.Types.StackLayer.html",
+          "hash": "mojpqEZXHIRPkmvvZvjHhPxdEN8zc5exzin1/XGvl3c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Core.Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Core.Types.html",
+          "hash": "WNvXy6Cpj/FYSSu7wv3NWxy5/0C7BFpo0TVX+F92drY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Core.html",
+          "hash": "dhgd608zwzuusXMiUX9pHs5t10xAMIGuOinBzl3QsFQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.DTOs.Events.HidUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.DTOs.Events.HidUsage.html",
+          "hash": "XylkTpH+zDVuq232nUj9cELCIoh+PRTZ9j/vpnoT/mw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.DTOs.Events.ReportType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.DTOs.Events.ReportType.html",
+          "hash": "yVlynaK/5vbNkNChxiBUiKN1FqbIyRAYY8GjyKSu+yw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.DTOs.Events.ValueType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.DTOs.Events.ValueType.html",
+          "hash": "jJxJ6spmnEvnAE5Sf7x7aFDDMOaIJZ0CzNopKQvH0gg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.DTOs.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.DTOs.Events.html",
+          "hash": "EqFibsC8FnCpFrGyRt6YHK/S673kyHzda4KkY44eO+I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Modules.CallControl.CallControlFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Modules.CallControl.CallControlFactory.html",
+          "hash": "J9KcFTYUwNFyxH/EU5uqGGAI5AORZXHugMm/ZjpnD+0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Modules.CallControl.ICallControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Modules.CallControl.ICallControl.html",
+          "hash": "eJRQ81b/RZrcHOOrkpvZ+N3XSDg0XJdHMQNBd3zOF54="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Modules.CallControl.Signals.ICallControlSignal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Modules.CallControl.Signals.ICallControlSignal.html",
+          "hash": "SdjkszXqpALq0nSQH135F5HYu6iaRdZLFN5gr30F/8w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Modules.CallControl.Signals.SignalType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Modules.CallControl.Signals.SignalType.html",
+          "hash": "5aydFv0e1UtJR9dv6txGs3VtQnSMSqMpHMgRio0LL7c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Modules.CallControl.Signals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Modules.CallControl.Signals.html",
+          "hash": "X195deyy4DWc9KtGR0DYgJWGKTpcI2LxZNxUwSKlewM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Modules.CallControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Modules.CallControl.html",
+          "hash": "cNiLwYVYW0N2/0D0V4/Gs28iALPwtHT+YF9JZcGXQLM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Modules.EasyCallControl.EasyCallControlFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Modules.EasyCallControl.EasyCallControlFactory.html",
+          "hash": "Canwww4qH/nMCRaeJ33ebgO4o0tj9uJ4s2YF8Y/smW0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Modules.EasyCallControl.MultiInitialState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Modules.EasyCallControl.MultiInitialState.html",
+          "hash": "uxAuky4xKLFLBesEJFXJc2OAZmgr2gJ4t1yyGBeymH0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Modules.EasyCallControl.SingleInitialState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Modules.EasyCallControl.SingleInitialState.html",
+          "hash": "IBsVDbVuX05v+Q+BEEKgJO1TiTHXaSAFMsfZF6lrRNg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Modules.EasyCallControl.Types.AcceptIncomingCallBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Modules.EasyCallControl.Types.AcceptIncomingCallBehavior.html",
+          "hash": "iSPSKd/ugK5w4Y3uPtd34A1bYnsmeoVSuBWfv8QGdNo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Modules.EasyCallControl.Types.HoldState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Modules.EasyCallControl.Types.HoldState.html",
+          "hash": "4li0l5AlKTeZFh1UXYvhPzNi086Z/I2vPA7pWjMg3Yg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Modules.EasyCallControl.Types.IEasyCallControlBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Modules.EasyCallControl.Types.IEasyCallControlBase.html",
+          "hash": "hYo2OTLsgbBps1xAUfpeGCHioNuoZVDoZTDshORKxas="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Modules.EasyCallControl.Types.IMultiCallControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Modules.EasyCallControl.Types.IMultiCallControl.html",
+          "hash": "8sZ6cUkE6MUf66PlTAXNLp/hO8V9PjD3gOEV2q68ERY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Modules.EasyCallControl.Types.ISingleCallControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Modules.EasyCallControl.Types.ISingleCallControl.html",
+          "hash": "boiWAYueLC4isx/BY4QZc+BPfIMZKAeIYSayVV0/iVQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Modules.EasyCallControl.Types.MuteState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Modules.EasyCallControl.Types.MuteState.html",
+          "hash": "CycJr0ab6L6gINvkwWE61LZPO3+LXmX8BidRZ+oXQtM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Modules.EasyCallControl.Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Modules.EasyCallControl.Types.html",
+          "hash": "92G6Z3QGGIaQ7xYsfSSuzFbeTNehos783ax6OyoiF5M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Modules.EasyCallControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Modules.EasyCallControl.html",
+          "hash": "yPXX02lZDWaQq+L9BHp38clYAHSdIpJztyFhiEJb4e8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Modules.RemoteMMI.RemoteMmi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Modules.RemoteMMI.RemoteMmi.html",
+          "hash": "nVuH/2cguYKZEYVdBCLoGbc4RmdwWPeR8CJhauoYUuU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Modules.RemoteMMI.Types.IRemoteMmi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Modules.RemoteMMI.Types.IRemoteMmi.html",
+          "hash": "TcTapL3Pm7LoIs69ko0AJYRTNqSM4TxhoRL95jLKAic="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Modules.RemoteMMI.Types.IRemoteMmiEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Modules.RemoteMMI.Types.IRemoteMmiEvent.html",
+          "hash": "DPGs4gODsF1L2gF3AD+Ze5fthutjHH7LOehC2OqBm5Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Modules.RemoteMMI.Types.Led.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Modules.RemoteMMI.Types.Led.html",
+          "hash": "KeSvcvYZBkd5aKRImMeJulyxEbhonOety96Qm/h2tek="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Modules.RemoteMMI.Types.LedBlinkingInterval.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Modules.RemoteMMI.Types.LedBlinkingInterval.html",
+          "hash": "higGcld30zW/YyWckgOi4tqtq1QTRr9DOj+1cxwQ/qQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Modules.RemoteMMI.Types.LedColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Modules.RemoteMMI.Types.LedColor.html",
+          "hash": "48MALlIHwaZZ3ndOABElNsjfWMP1l/6cPCYVbyXOcBk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Modules.RemoteMMI.Types.RemoteMmiEventType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Modules.RemoteMMI.Types.RemoteMmiEventType.html",
+          "hash": "HnJo7t7hezWy4TGBtCqubWbGtmawW90u6n8frtsrXuU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Modules.RemoteMMI.Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Modules.RemoteMMI.Types.html",
+          "hash": "YF1OquKlCYlkI7YizMXe3k/9hWIbjpNI0IWq5Sm8lm4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Modules.RemoteMMI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Modules.RemoteMMI.html",
+          "hash": "xRUw2Fg1qcsePB9dL9e9eJYALLu4FqUrkg45wwlHA6U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Properties.Gnp.ConvFunctors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Properties.Gnp.ConvFunctors.html",
+          "hash": "22zISoSgI57cjjq/m51XUUctwVzW/OY9Ve0RheFt+nU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Properties.Gnp.JxonGnpConv.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Properties.Gnp.JxonGnpConv.html",
+          "hash": "oS3+OJrisKtKEBxUrpiij4yk8LJFswZ7lepg9k1eLQw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Properties.Gnp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Properties.Gnp.html",
+          "hash": "H+2YRk9PWX2ZeEc4k/Qtzve759CYGjd3zwmlY3+wgzI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Properties.JsonConverters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Properties.JsonConverters.html",
+          "hash": "2N5FRPqNymMJ67E/L7XxQQ6hei5TJtObn565l+V/kN8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Properties.PropertyFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Properties.PropertyFactory.html",
+          "hash": "m/ZYLYENByxvHaMDCzREEx5CvRJgNlB6wsynVWvZF4w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Properties.Types.IProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Properties.Types.IProperty.html",
+          "hash": "yr4eYCbKvtuk34CHfVM/Y4bJXkNiEvaQBBHALstwZfQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Properties.Types.IPropertyFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Properties.Types.IPropertyFactory.html",
+          "hash": "XnlXOHY5wxXdQ1iTYr9bHNL81KBChMATMlfYolyYOn0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Properties.Types.PropertyFactoryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Properties.Types.PropertyFactoryExtensions.html",
+          "hash": "wRKd6v/5o9P27avHDVnPmHY9lYjeun1PpYlTZazB6Zc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Properties.Types.PropertyType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Properties.Types.PropertyType.html",
+          "hash": "BWxKA1K7D2U/Lo4ZC8f6iQnutFhJmL+sGPHP+34UQkA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Properties.Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Properties.Types.html",
+          "hash": "j6ZroQIcD7G41Xx626Uow2eHOou8Pk48xgfPHVia0ek="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.Properties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.Properties.html",
+          "hash": "Z0YiOKeCIZ9L3Mix/3MaCIYL5CRLXOAlCGRV0pQbN5U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.ToolsAndHelpers.ErrorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.ToolsAndHelpers.ErrorType.html",
+          "hash": "3q1iaVko87KYg3XP+8oIXWYfmyv1XmSSWUZaU7B1Cno="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.ToolsAndHelpers.IDisconnectable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.ToolsAndHelpers.IDisconnectable.html",
+          "hash": "epN7wxrpXc+ORmvD1VKwFYnzrDJz3d49HN6qdQy7Gvo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.ToolsAndHelpers.JabraException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.ToolsAndHelpers.JabraException.html",
+          "hash": "clHR4eCXXYgwOfc92HazaeaM93GdKFN86sr+qf3ajeQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.ToolsAndHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.ToolsAndHelpers.html",
+          "hash": "JaqOody+jJL9WXha7a2BDhFvWXqPjWW/9QOUSW0/KdU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.jxon.GnpMappingExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.jxon.GnpMappingExtensions.html",
+          "hash": "EM9McDXrOghJbAbg3VJTRD38CbURFMr5bSUsXqo11Fc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.jxon.GnpMappingKeys.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.jxon.GnpMappingKeys.html",
+          "hash": "THuIoIIO24D8NGYvfw0pqw7JacEQ5SmWs8h1GW0arrY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.jxon.JxonKeys.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.jxon.JxonKeys.html",
+          "hash": "jdKK/PGC5hQIi4Sj6TBTg0QoDqLb2TsLvnOVkf+XTQg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/api/Jabra.NET.Sdk.jxon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/Jabra.NET.Sdk.jxon.html",
+          "hash": "XXoHtFPhKTzV7JzA/eSkYRBaN556IpILJ8d4M6vTL8s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/api/toc.html",
+          "hash": "hBXTKoddaoaaWn7ORS42go1GJq/rUlsV5FR50FYu7PI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 69,
+          "skipped_file_count": 59
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

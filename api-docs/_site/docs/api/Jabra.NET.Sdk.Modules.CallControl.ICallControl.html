@@ -1,0 +1,773 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface ICallControl
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface ICallControl
+   ">
+    <meta name="generator" content="docfx 2.59.0.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Jabra.NET.Sdk.Comm.html" title="Jabra.NET.Sdk.Comm" class="">Jabra.NET.Sdk.Comm</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Comm.HidReport.html" title="HidReport" class="">HidReport</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Comm.IHidChannel.html" title="IHidChannel" class="">IHidChannel</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Jabra.NET.Sdk.ConnectionDetection.html" title="Jabra.NET.Sdk.ConnectionDetection" class="">Jabra.NET.Sdk.ConnectionDetection</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.ConnectionDetection.IConnectionId.html" title="IConnectionId" class="">IConnectionId</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Jabra.NET.Sdk.Core.html" title="Jabra.NET.Sdk.Core" class="">Jabra.NET.Sdk.Core</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Core.Config.html" title="Config" class="">Config</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Core.DeviceId.html" title="DeviceId" class="">DeviceId</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Core.EventReady.html" title="EventReady" class="">EventReady</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Core.Init.html" title="Init" class="">Init</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Core.LogEvent.html" title="LogEvent" class="">LogEvent</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Jabra.NET.Sdk.Core.Types.html" title="Jabra.NET.Sdk.Core.Types" class="">Jabra.NET.Sdk.Core.Types</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Core.Types.ConnectionType.html" title="ConnectionType" class="">ConnectionType</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Core.Types.DeviceType.html" title="DeviceType" class="">DeviceType</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Core.Types.IApi.html" title="IApi" class="">IApi</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Core.Types.IConnection.html" title="IConnection" class="">IConnection</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Core.Types.IDevice.html" title="IDevice" class="">IDevice</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Core.Types.ILoggerExtensions.html" title="ILoggerExtensions" class="">ILoggerExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Core.Types.LogLevel.html" title="LogLevel" class="">LogLevel</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Core.Types.StackLayer.html" title="StackLayer" class="">StackLayer</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Jabra.NET.Sdk.DTOs.Events.html" title="Jabra.NET.Sdk.DTOs.Events" class="">Jabra.NET.Sdk.DTOs.Events</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.DTOs.Events.HidUsage.html" title="HidUsage" class="">HidUsage</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.DTOs.Events.ReportType.html" title="ReportType" class="">ReportType</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.DTOs.Events.ValueType.html" title="ValueType" class="">ValueType</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Jabra.NET.Sdk.jxon.html" title="Jabra.NET.Sdk.jxon" class="">Jabra.NET.Sdk.jxon</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.jxon.GnpMappingExtensions.html" title="GnpMappingExtensions" class="">GnpMappingExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.jxon.GnpMappingKeys.html" title="GnpMappingKeys" class="">GnpMappingKeys</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.jxon.JxonKeys.html" title="JxonKeys" class="">JxonKeys</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Jabra.NET.Sdk.Modules.CallControl.html" title="Jabra.NET.Sdk.Modules.CallControl" class="">Jabra.NET.Sdk.Modules.CallControl</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Modules.CallControl.CallControlFactory.html" title="CallControlFactory" class="">CallControlFactory</a>
+                          </li>
+                          <li class="active">
+                            <a href="Jabra.NET.Sdk.Modules.CallControl.ICallControl.html" title="ICallControl" class="active">ICallControl</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Jabra.NET.Sdk.Modules.CallControl.Signals.html" title="Jabra.NET.Sdk.Modules.CallControl.Signals" class="">Jabra.NET.Sdk.Modules.CallControl.Signals</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Modules.CallControl.Signals.ICallControlSignal.html" title="ICallControlSignal" class="">ICallControlSignal</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Modules.CallControl.Signals.SignalType.html" title="SignalType" class="">SignalType</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Jabra.NET.Sdk.Modules.EasyCallControl.html" title="Jabra.NET.Sdk.Modules.EasyCallControl" class="">Jabra.NET.Sdk.Modules.EasyCallControl</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Modules.EasyCallControl.EasyCallControlFactory.html" title="EasyCallControlFactory" class="">EasyCallControlFactory</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Modules.EasyCallControl.MultiInitialState.html" title="MultiInitialState" class="">MultiInitialState</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Modules.EasyCallControl.SingleInitialState.html" title="SingleInitialState" class="">SingleInitialState</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Jabra.NET.Sdk.Modules.EasyCallControl.Types.html" title="Jabra.NET.Sdk.Modules.EasyCallControl.Types" class="">Jabra.NET.Sdk.Modules.EasyCallControl.Types</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Modules.EasyCallControl.Types.AcceptIncomingCallBehavior.html" title="AcceptIncomingCallBehavior" class="">AcceptIncomingCallBehavior</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Modules.EasyCallControl.Types.HoldState.html" title="HoldState" class="">HoldState</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Modules.EasyCallControl.Types.IEasyCallControlBase.html" title="IEasyCallControlBase" class="">IEasyCallControlBase</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Modules.EasyCallControl.Types.IMultiCallControl.html" title="IMultiCallControl" class="">IMultiCallControl</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Modules.EasyCallControl.Types.ISingleCallControl.html" title="ISingleCallControl" class="">ISingleCallControl</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Modules.EasyCallControl.Types.MuteState.html" title="MuteState" class="">MuteState</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Jabra.NET.Sdk.Modules.RemoteMMI.html" title="Jabra.NET.Sdk.Modules.RemoteMMI" class="">Jabra.NET.Sdk.Modules.RemoteMMI</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Modules.RemoteMMI.RemoteMmi.html" title="RemoteMmi" class="">RemoteMmi</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Jabra.NET.Sdk.Modules.RemoteMMI.Types.html" title="Jabra.NET.Sdk.Modules.RemoteMMI.Types" class="">Jabra.NET.Sdk.Modules.RemoteMMI.Types</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Modules.RemoteMMI.Types.IRemoteMmi.html" title="IRemoteMmi" class="">IRemoteMmi</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Modules.RemoteMMI.Types.IRemoteMmiEvent.html" title="IRemoteMmiEvent" class="">IRemoteMmiEvent</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Modules.RemoteMMI.Types.Led.html" title="Led" class="">Led</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Modules.RemoteMMI.Types.LedBlinkingInterval.html" title="LedBlinkingInterval" class="">LedBlinkingInterval</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Modules.RemoteMMI.Types.LedColor.html" title="LedColor" class="">LedColor</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Modules.RemoteMMI.Types.RemoteMmiEventType.html" title="RemoteMmiEventType" class="">RemoteMmiEventType</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Jabra.NET.Sdk.Properties.html" title="Jabra.NET.Sdk.Properties" class="">Jabra.NET.Sdk.Properties</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Properties.JsonConverters.html" title="JsonConverters" class="">JsonConverters</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Properties.PropertyFactory.html" title="PropertyFactory" class="">PropertyFactory</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Jabra.NET.Sdk.Properties.Gnp.html" title="Jabra.NET.Sdk.Properties.Gnp" class="">Jabra.NET.Sdk.Properties.Gnp</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Properties.Gnp.ConvFunctors.html" title="ConvFunctors" class="">ConvFunctors</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Properties.Gnp.JxonGnpConv.html" title="JxonGnpConv" class="">JxonGnpConv</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Jabra.NET.Sdk.Properties.Types.html" title="Jabra.NET.Sdk.Properties.Types" class="">Jabra.NET.Sdk.Properties.Types</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Properties.Types.IProperty.html" title="IProperty" class="">IProperty</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Properties.Types.IPropertyFactory.html" title="IPropertyFactory" class="">IPropertyFactory</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Properties.Types.PropertyFactoryExtensions.html" title="PropertyFactoryExtensions" class="">PropertyFactoryExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.Properties.Types.PropertyType.html" title="PropertyType" class="">PropertyType</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Jabra.NET.Sdk.ToolsAndHelpers.html" title="Jabra.NET.Sdk.ToolsAndHelpers" class="">Jabra.NET.Sdk.ToolsAndHelpers</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.ToolsAndHelpers.ErrorType.html" title="ErrorType" class="">ErrorType</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.ToolsAndHelpers.IDisconnectable.html" title="IDisconnectable" class="">IDisconnectable</a>
+                          </li>
+                          <li class="">
+                            <a href="Jabra.NET.Sdk.ToolsAndHelpers.JabraException.html" title="JabraException" class="">JabraException</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Jabra.NET.Sdk.Modules.CallControl.ICallControl">
+  
+  
+  <h1 id="Jabra_NET_Sdk_Modules_CallControl_ICallControl" data-uid="Jabra.NET.Sdk.Modules.CallControl.ICallControl" class="text-break">Interface ICallControl
+  </h1>
+  <div class="markdown level0 summary"><p>Defines the necessary functionality for call control:</p>
+<ul><li>being able to start/end a call,</li><li>mute/unmute the microphone,</li><li>hold/resume a call,</li><li>start/stop the ringer on the device,</li><li>events for emitted signals from the device, and</li><li>the required call lock for executing all of these functions.</li></ul>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Jabra.NET.Sdk.Modules.CallControl.html">Jabra.NET.Sdk.Modules.CallControl</a></h6>
+  <h6><strong>Assembly</strong>: Jabra.NET.Sdk.dll</h6>
+  <h5 id="Jabra_NET_Sdk_Modules_CallControl_ICallControl_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ICallControl</code></pre>
+  </div>
+  <h5 id="Jabra_NET_Sdk_Modules_CallControl_ICallControl_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>All of this functionality is associated with a single connection on a single physical device.
+For every connected Jabra.NET.Sdk headset, there is an additional instance of <a class="xref" href="Jabra.NET.Sdk.Modules.CallControl.ICallControl.html">ICallControl</a>
+that is used to manipulate its call-related state and functionality.</p>
+</div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/gnaudio/JabraSDK-v3/_git/Jabra-.NET?path=SDK/Modules/CallControl/ICallControl.cs&amp;version=GBdtu-api&amp;line=31">View Source</a>
+  </span>
+  <a id="Jabra_NET_Sdk_Modules_CallControl_ICallControl_Device_" data-uid="Jabra.NET.Sdk.Modules.CallControl.ICallControl.Device*"></a>
+  <h4 id="Jabra_NET_Sdk_Modules_CallControl_ICallControl_Device" data-uid="Jabra.NET.Sdk.Modules.CallControl.ICallControl.Device">Device</h4>
+  <div class="markdown level1 summary"><p>The single physical device to which the call control functionalities are associated to.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDevice Device { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Jabra.NET.Sdk.Core.Types.IDevice.html">IDevice</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/gnaudio/JabraSDK-v3/_git/Jabra-.NET?path=SDK/Modules/CallControl/ICallControl.cs&amp;version=GBdtu-api&amp;line=48">View Source</a>
+  </span>
+  <a id="Jabra_NET_Sdk_Modules_CallControl_ICallControl_DeviceSignals_" data-uid="Jabra.NET.Sdk.Modules.CallControl.ICallControl.DeviceSignals*"></a>
+  <h4 id="Jabra_NET_Sdk_Modules_CallControl_ICallControl_DeviceSignals" data-uid="Jabra.NET.Sdk.Modules.CallControl.ICallControl.DeviceSignals">DeviceSignals</h4>
+  <div class="markdown level1 summary"><p>Observable for signals emitted by the device.
+Whenever the device sends a new signal, this observable will be populated with ICallControlSignal instances for each emission.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IObservable&lt;ICallControlSignal&gt; DeviceSignals { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IObservable</span>&lt;<a class="xref" href="Jabra.NET.Sdk.Modules.CallControl.Signals.ICallControlSignal.html">ICallControlSignal</a>&gt;</td>
+        <td><p>An observable that emits signals.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Jabra_NET_Sdk_Modules_CallControl_ICallControl_DeviceSignals_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Reacting to incoming signals is an advanced topic.
+Before implementing your solution, we urge you to check out the
+<a href="https://developer.jabra.com/site/global/software/documentation/developers-guide/mute.gsp">guide on device signals</a></p>
+</div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/gnaudio/JabraSDK-v3/_git/Jabra-.NET?path=SDK/Modules/CallControl/ICallControl.cs&amp;version=GBdtu-api&amp;line=36">View Source</a>
+  </span>
+  <a id="Jabra_NET_Sdk_Modules_CallControl_ICallControl_OnDisconnect_" data-uid="Jabra.NET.Sdk.Modules.CallControl.ICallControl.OnDisconnect*"></a>
+  <h4 id="Jabra_NET_Sdk_Modules_CallControl_ICallControl_OnDisconnect" data-uid="Jabra.NET.Sdk.Modules.CallControl.ICallControl.OnDisconnect">OnDisconnect</h4>
+  <div class="markdown level1 summary"><p>Emits when the connection used for call control gets disconnected.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IObservable&lt;Unit&gt; OnDisconnect { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IObservable</span>&lt;<span class="xref">System.Reactive.Unit</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/gnaudio/JabraSDK-v3/_git/Jabra-.NET?path=SDK/Modules/CallControl/ICallControl.cs&amp;version=GBdtu-api&amp;line=121">View Source</a>
+  </span>
+  <a id="Jabra_NET_Sdk_Modules_CallControl_ICallControl_Hold_" data-uid="Jabra.NET.Sdk.Modules.CallControl.ICallControl.Hold*"></a>
+  <h4 id="Jabra_NET_Sdk_Modules_CallControl_ICallControl_Hold_System_Boolean_" data-uid="Jabra.NET.Sdk.Modules.CallControl.ICallControl.Hold(System.Boolean)">Hold(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Tells the device whether an active call was put on hold or a held up call was resumed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Hold(bool shouldHold)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">shouldHold</span></td>
+        <td><p><code>true</code> when a call gets put on hold, <code>false</code> when it is resumed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Jabra.NET.Sdk.ToolsAndHelpers.JabraException.html">JabraException</a></td>
+        <td><p><a class="xref" href="Jabra.NET.Sdk.Modules.CallControl.ICallControl.html#Jabra_NET_Sdk_Modules_CallControl_ICallControl_TakeCallLock">TakeCallLock()</a> throws if a call lock was not acquired prior to execution.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/gnaudio/JabraSDK-v3/_git/Jabra-.NET?path=SDK/Modules/CallControl/ICallControl.cs&amp;version=GBdtu-api&amp;line=114">View Source</a>
+  </span>
+  <a id="Jabra_NET_Sdk_Modules_CallControl_ICallControl_Mute_" data-uid="Jabra.NET.Sdk.Modules.CallControl.ICallControl.Mute*"></a>
+  <h4 id="Jabra_NET_Sdk_Modules_CallControl_ICallControl_Mute_System_Boolean_" data-uid="Jabra.NET.Sdk.Modules.CallControl.ICallControl.Mute(System.Boolean)">Mute(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Mutes or unmutes the microphone of the Jabra.NET.Sdk device.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Mute(bool shouldMute)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">shouldMute</span></td>
+        <td><p><code>true</code> to mute the device, <code>false</code> to unmute it.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Jabra_NET_Sdk_Modules_CallControl_ICallControl_Mute_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Should only be used during a call.</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Jabra.NET.Sdk.ToolsAndHelpers.JabraException.html">JabraException</a></td>
+        <td><p><a class="xref" href="Jabra.NET.Sdk.Modules.CallControl.ICallControl.html#Jabra_NET_Sdk_Modules_CallControl_ICallControl_TakeCallLock">TakeCallLock()</a> throws if a call lock was not acquired prior to execution.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/gnaudio/JabraSDK-v3/_git/Jabra-.NET?path=SDK/Modules/CallControl/ICallControl.cs&amp;version=GBdtu-api&amp;line=98">View Source</a>
+  </span>
+  <a id="Jabra_NET_Sdk_Modules_CallControl_ICallControl_OffHook_" data-uid="Jabra.NET.Sdk.Modules.CallControl.ICallControl.OffHook*"></a>
+  <h4 id="Jabra_NET_Sdk_Modules_CallControl_ICallControl_OffHook_System_Boolean_" data-uid="Jabra.NET.Sdk.Modules.CallControl.ICallControl.OffHook(System.Boolean)">OffHook(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Informs the Jabra.NET.Sdk device that there's a change in the call status.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OffHook(bool isOffHook)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isOffHook</span></td>
+        <td><p>The new offHook status of the device.
+Use <code>true</code> when a call becomes active, regardless of call type (outgoing or incoming).
+Use <code>false</code> when a call has ended and the device is no longer used.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Jabra_NET_Sdk_Modules_CallControl_ICallControl_OffHook_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This controls if the device considers itself in an active call.
+When offHook is true, a call is ongoing, otherwise there is no active call.</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Jabra.NET.Sdk.ToolsAndHelpers.JabraException.html">JabraException</a></td>
+        <td><p><a class="xref" href="Jabra.NET.Sdk.Modules.CallControl.ICallControl.html#Jabra_NET_Sdk_Modules_CallControl_ICallControl_TakeCallLock">TakeCallLock()</a> throws if a call lock was not acquired prior to execution.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/gnaudio/JabraSDK-v3/_git/Jabra-.NET?path=SDK/Modules/CallControl/ICallControl.cs&amp;version=GBdtu-api&amp;line=83">View Source</a>
+  </span>
+  <a id="Jabra_NET_Sdk_Modules_CallControl_ICallControl_ReleaseCallLock_" data-uid="Jabra.NET.Sdk.Modules.CallControl.ICallControl.ReleaseCallLock*"></a>
+  <h4 id="Jabra_NET_Sdk_Modules_CallControl_ICallControl_ReleaseCallLock" data-uid="Jabra.NET.Sdk.Modules.CallControl.ICallControl.ReleaseCallLock">ReleaseCallLock()</h4>
+  <div class="markdown level1 summary"><p>Releases a previously acquired call lock.
+Releasing the call lock is the last step in
+performing call control operations so remember
+to execute it once you are done with the Jabra.NET.Sdk device.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ReleaseCallLock()</code></pre>
+  </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Jabra.NET.Sdk.ToolsAndHelpers.JabraException.html">JabraException</a></td>
+        <td><p>If there is no active call lock imposed on the device by your softphone.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/gnaudio/JabraSDK-v3/_git/Jabra-.NET?path=SDK/Modules/CallControl/ICallControl.cs&amp;version=GBdtu-api&amp;line=106">View Source</a>
+  </span>
+  <a id="Jabra_NET_Sdk_Modules_CallControl_ICallControl_Ring_" data-uid="Jabra.NET.Sdk.Modules.CallControl.ICallControl.Ring*"></a>
+  <h4 id="Jabra_NET_Sdk_Modules_CallControl_ICallControl_Ring_System_Boolean_" data-uid="Jabra.NET.Sdk.Modules.CallControl.ICallControl.Ring(System.Boolean)">Ring(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Starts or ends the &quot;ring&quot; effect on the Jabra.NET.Sdk device.
+Used to indicate an incoming call.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Ring(bool shouldRing)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">shouldRing</span></td>
+        <td><p><code>true</code> to start the &quot;ring&quot; effect, <code>false</code> to stop it.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Jabra.NET.Sdk.ToolsAndHelpers.JabraException.html">JabraException</a></td>
+        <td><p><a class="xref" href="Jabra.NET.Sdk.Modules.CallControl.ICallControl.html#Jabra_NET_Sdk_Modules_CallControl_ICallControl_TakeCallLock">TakeCallLock()</a> throws if a call lock was not acquired prior to execution.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/gnaudio/JabraSDK-v3/_git/Jabra-.NET?path=SDK/Modules/CallControl/ICallControl.cs&amp;version=GBdtu-api&amp;line=74">View Source</a>
+  </span>
+  <a id="Jabra_NET_Sdk_Modules_CallControl_ICallControl_TakeCallLock_" data-uid="Jabra.NET.Sdk.Modules.CallControl.ICallControl.TakeCallLock*"></a>
+  <h4 id="Jabra_NET_Sdk_Modules_CallControl_ICallControl_TakeCallLock" data-uid="Jabra.NET.Sdk.Modules.CallControl.ICallControl.TakeCallLock">TakeCallLock()</h4>
+  <div class="markdown level1 summary"><p>Tries to acquire a call lock.
+The call lock is a unique, per-device lock,
+and is required in order to change the state of the device.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;bool&gt; TakeCallLock()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><p>A <span class="xref">System.Threading.Tasks.Task</span> that resolves with <code>true</code> if the call lock is successfully acquired, <code>false</code> otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Jabra_NET_Sdk_Modules_CallControl_ICallControl_TakeCallLock_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Acquiring a call lock can fail. This can happen due to multiple reasons:</p>
+<ul><li></li><li></li><li></li></ul>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Jabra.NET.Sdk.ToolsAndHelpers.JabraException.html">JabraException</a></td>
+        <td><p>When the device is already call locked.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://dev.azure.com/gnaudio/JabraSDK-v3/_git/Jabra-.NET?path=SDK/Modules/CallControl/ICallControl.cs&amp;version=GBdtu-api&amp;line=26" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>
