@@ -43,6 +43,9 @@ namespace DiscoMode
             // Initialize the SDK
             IApi sdk = Init.InitSdk();
 
+            // Get the devices
+            var device = await sdk.DeviceAdded.FirstAsync();
+
             return 0;
         }
     }
