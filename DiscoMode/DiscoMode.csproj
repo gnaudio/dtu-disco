@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Jabra.NET.Sdk" Version="0.9.1-alpha0" />
+    <PackageReference Include="Jabra.NET.Sdk" Version="0.9.1-alpha*" />
   </ItemGroup>
 
 </Project>
